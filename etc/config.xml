@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <booksettings>
+            <general>
+                <enable>1</enable>
+                <display_height>300</display_height>
+                <display_width>500</display_width>
+                <display_duration>500</display_duration>
+            </general>
+        </booksettings>
+    </default>
+</config>
+

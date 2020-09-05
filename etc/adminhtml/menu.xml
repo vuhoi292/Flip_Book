@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Book::top_level" module="Book_Flip" resource="Magento_Backend::content" sortOrder="10" title="Book"/>
+		<add action="book_flip/flip/index" id="Book::book_flip" module="Book_Flip" parent="Book::top_level" resource="Magento_Backend::content" sortOrder="10" title="Manage Books"/>
+		<add action="adminhtml/system_config/edit/section/booksettings" id="Book::book_flip_setting" module="Book_Flip" parent="Book::top_level" resource="Magento_Backend::content" sortOrder="20" title="Settings"/>
+	</menu>
+</config>
